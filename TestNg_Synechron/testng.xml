@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testAnnotations.DependencyExample"/>
+      <class name="com.testAnnotations.WorkWithExcel"/>
+      <class name="com.testAnnotations.SoftAssert_FailMethod"/>
+      <class name="com.testAnnotations.SoftAssertExample"/>
+      <class name="com.testAnnotations.Param_ExcelDataProvider"/>
+      <class name="com.testAnnotations.HardAsserExample"/>
+      <class name="com.testAnnotations.Param_DataProvider"/>
+      <class name="com.testAnnotations.Order"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
